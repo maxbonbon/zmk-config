@@ -1,3 +1,16 @@
+#manifest:
+#  remotes:
+#    - name: zmkfirmware
+#      url-base: https://github.com/zmkfirmware
+#  projects:
+#    - name: zmk
+#      remote: zmkfirmware
+#      revision: v0.3
+#      import: app/west.yml
+#  self:
+#    path: config
+
+# Nice!view 2 custom Gem shield
 manifest:
   remotes:
     - name: zmkfirmware
